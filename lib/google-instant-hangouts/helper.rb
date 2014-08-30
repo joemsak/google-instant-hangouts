@@ -12,7 +12,8 @@ module GoogleInstantHangouts
                  topic: defaults[:topic],
                  widget_size: defaults[:widget_size],
                  width: defaults[:width],
-                 hangout_type: defaults[:hangout_type])
+                 hangout_type: defaults[:hangout_type],
+                 app_id: defaults[:app_id])
     end
   end
 end
